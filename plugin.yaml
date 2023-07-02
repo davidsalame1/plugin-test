@@ -1,0 +1,27 @@
+name: "aqua"
+repository: github.com/aquasecurity/trivy-plugin-aqua
+version: "v0.110.0"
+usage: trivy aqua <srcPath>
+description: A Trivy plugin that sends results to Aqua.
+platforms:
+  - selector: # optional
+      os: linux
+      arch: amd64
+    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.132.0/linux_amd64_v0.132.0.tar.gz
+#     uri: https://github.com/danielciuraru86/plugin-version/releases/download/daniel-test-ver/plugin-pre-release-testing.tar.gz
+    bin: ./aqua
+  - selector:
+      os: linux
+      arch: arm64
+    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.83.3-fix-branch-1/linux_arm64_v0.86.1-assurance-policies.tar.gz
+    bin: ./aqua
+  - selector:
+      os: darwin
+      arch: amd64
+    uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/darwin_amd64_dudi-trivy.tar.gz
+    bin: ./aqua
+  - selector:
+      os: darwin
+      arch: arm64
+    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.83.3-fix-branch-1/darwin_arm64_v0.86.1-assurance-policies.tar.gz
+    bin: ./aqua
