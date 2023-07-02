@@ -18,7 +18,7 @@ platforms:
   - selector:
       os: darwin
       arch: amd64
-    uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/darwin_amd64_dudi-trivy.tar.gz
+    uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/plugin-pre-release-testing.tar.gz
     bin: ./aqua
   - selector:
       os: darwin
