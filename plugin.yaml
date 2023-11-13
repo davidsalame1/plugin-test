@@ -7,7 +7,7 @@ platforms:
   - selector: # optional
       os: linux
       arch: amd64
-     uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/plugin-pre-release-testing.tar.gz
+    uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/plugin-pre-release-testing.tar.gz
 #     uri: https://github.com/danielciuraru86/plugin-version/releases/download/daniel-test-ver/plugin-pre-release-testing.tar.gz
     bin: ./aqua
   - selector:
