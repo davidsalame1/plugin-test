@@ -23,5 +23,5 @@ platforms:
   - selector:
       os: darwin
       arch: arm64
-    uri: https://github.com/aquasecurity/trivy-plugin-aqua/releases/download/v0.83.3-fix-branch-1/darwin_arm64_v0.86.1-assurance-policies.tar.gz
+    uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/plugin-pre-release-testing.tar.gz
     bin: ./aqua
