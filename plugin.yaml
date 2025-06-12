@@ -13,7 +13,7 @@ platforms:
   - selector:
       os: linux
       arch: arm64
-    uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/plugin-pre-release-testing.tar.gz
+    # uri: https://github.com/davidsalame1/plugin-test/releases/download/dudi-trivy/plugin-pre-release-testing.tar.gz
     bin: ./aqua
   - selector:
       os: darwin
